@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3CF83F1DD1A29100B168F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3CF83E1DD1A29100B168F0 /* AppDelegate.swift */; };
+		EF3CF8411DD1A29100B168F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3CF8401DD1A29100B168F0 /* ViewController.swift */; };
+		EF3CF8441DD1A29100B168F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF8421DD1A29100B168F0 /* Main.storyboard */; };
+		EF3CF8461DD1A29100B168F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF8451DD1A29100B168F0 /* Assets.xcassets */; };
+		EF3CF8491DD1A29100B168F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF8471DD1A29100B168F0 /* LaunchScreen.storyboard */; };
+		EF3CF8641DD1A3C100B168F0 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3CF8521DD1A3C100B168F0 /* AsyncImageView.m */; };
+		EF3CF8651DD1A3C100B168F0 /* SBPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3CF8551DD1A3C100B168F0 /* SBPhotoManager.m */; };
+		EF3CF8661DD1A3C100B168F0 /* SBPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3CF8571DD1A3C100B168F0 /* SBPhotoViewController.m */; };
+		EF3CF8671DD1A3C100B168F0 /* SBPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF8581DD1A3C100B168F0 /* SBPhotoViewController.xib */; };
+		EF3CF8681DD1A3C100B168F0 /* SBSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3CF85B1DD1A3C100B168F0 /* SBSliderView.m */; };
+		EF3CF8691DD1A3C100B168F0 /* SBSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF85C1DD1A3C100B168F0 /* SBSliderView.xib */; };
+		EF3CF86A1DD1A3C100B168F0 /* Black-Car-HD-Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF85E1DD1A3C100B168F0 /* Black-Car-HD-Wallpaper.jpg */; };
+		EF3CF86B1DD1A3C100B168F0 /* lamborghini_murcielago_superveloce_2-2880x1800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF85F1DD1A3C100B168F0 /* lamborghini_murcielago_superveloce_2-2880x1800.jpg */; };
+		EF3CF86C1DD1A3C100B168F0 /* nature-landscape-photography-lanscape-cool-hd-wallpapers-fullscreen-high-resolution.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF8601DD1A3C100B168F0 /* nature-landscape-photography-lanscape-cool-hd-wallpapers-fullscreen-high-resolution.jpg */; };
+		EF3CF86D1DD1A3C100B168F0 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF8611DD1A3C100B168F0 /* next.png */; };
+		EF3CF86E1DD1A3C100B168F0 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF8621DD1A3C100B168F0 /* previous.png */; };
+		EF3CF86F1DD1A3C100B168F0 /* wallpaper-hd-3151.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF8631DD1A3C100B168F0 /* wallpaper-hd-3151.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF3CF83B1DD1A29100B168F0 /* iosslideshow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosslideshow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3CF83E1DD1A29100B168F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF3CF8401DD1A29100B168F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF3CF8431DD1A29100B168F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3CF8451DD1A29100B168F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3CF8481DD1A29100B168F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF3CF84A1DD1A29100B168F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3CF8511DD1A3C100B168F0 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		EF3CF8521DD1A3C100B168F0 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		EF3CF8541DD1A3C100B168F0 /* SBPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBPhotoManager.h; sourceTree = "<group>"; };
+		EF3CF8551DD1A3C100B168F0 /* SBPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBPhotoManager.m; sourceTree = "<group>"; };
+		EF3CF8561DD1A3C100B168F0 /* SBPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBPhotoViewController.h; sourceTree = "<group>"; };
+		EF3CF8571DD1A3C100B168F0 /* SBPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBPhotoViewController.m; sourceTree = "<group>"; };
+		EF3CF8581DD1A3C100B168F0 /* SBPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBPhotoViewController.xib; sourceTree = "<group>"; };
+		EF3CF85A1DD1A3C100B168F0 /* SBSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSliderView.h; sourceTree = "<group>"; };
+		EF3CF85B1DD1A3C100B168F0 /* SBSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSliderView.m; sourceTree = "<group>"; };
+		EF3CF85C1DD1A3C100B168F0 /* SBSliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBSliderView.xib; sourceTree = "<group>"; };
+		EF3CF85E1DD1A3C100B168F0 /* Black-Car-HD-Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Black-Car-HD-Wallpaper.jpg"; sourceTree = "<group>"; };
+		EF3CF85F1DD1A3C100B168F0 /* lamborghini_murcielago_superveloce_2-2880x1800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lamborghini_murcielago_superveloce_2-2880x1800.jpg"; sourceTree = "<group>"; };
+		EF3CF8601DD1A3C100B168F0 /* nature-landscape-photography-lanscape-cool-hd-wallpapers-fullscreen-high-resolution.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nature-landscape-photography-lanscape-cool-hd-wallpapers-fullscreen-high-resolution.jpg"; sourceTree = "<group>"; };
+		EF3CF8611DD1A3C100B168F0 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		EF3CF8621DD1A3C100B168F0 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		EF3CF8631DD1A3C100B168F0 /* wallpaper-hd-3151.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wallpaper-hd-3151.jpg"; sourceTree = "<group>"; };
+		EF3CF8701DD1A45C00B168F0 /* iosslideshow-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iosslideshow-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3CF8381DD1A29100B168F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF3CF8321DD1A29100B168F0 = {
+			isa = PBXGroup;
+			children = (
+				EF3CF83D1DD1A29100B168F0 /* iosslideshow */,
+				EF3CF83C1DD1A29100B168F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3CF83C1DD1A29100B168F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CF83B1DD1A29100B168F0 /* iosslideshow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3CF83D1DD1A29100B168F0 /* iosslideshow */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CF8501DD1A3C100B168F0 /* AsyncImageView */,
+				EF3CF8531DD1A3C100B168F0 /* SBPhotoViewer */,
+				EF3CF8591DD1A3C100B168F0 /* SBSlider */,
+				EF3CF85D1DD1A3C100B168F0 /* Assets */,
+				EF3CF83E1DD1A29100B168F0 /* AppDelegate.swift */,
+				EF3CF8401DD1A29100B168F0 /* ViewController.swift */,
+				EF3CF8421DD1A29100B168F0 /* Main.storyboard */,
+				EF3CF8451DD1A29100B168F0 /* Assets.xcassets */,
+				EF3CF8471DD1A29100B168F0 /* LaunchScreen.storyboard */,
+				EF3CF84A1DD1A29100B168F0 /* Info.plist */,
+				EF3CF8701DD1A45C00B168F0 /* iosslideshow-Bridging-Header.h */,
+			);
+			path = iosslideshow;
+			sourceTree = "<group>";
+		};
+		EF3CF8501DD1A3C100B168F0 /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CF8511DD1A3C100B168F0 /* AsyncImageView.h */,
+				EF3CF8521DD1A3C100B168F0 /* AsyncImageView.m */,
+			);
+			name = AsyncImageView;
+			path = SlideShow/AsyncImageView;
+			sourceTree = "<group>";
+		};
+		EF3CF8531DD1A3C100B168F0 /* SBPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CF8541DD1A3C100B168F0 /* SBPhotoManager.h */,
+				EF3CF8551DD1A3C100B168F0 /* SBPhotoManager.m */,
+				EF3CF8561DD1A3C100B168F0 /* SBPhotoViewController.h */,
+				EF3CF8571DD1A3C100B168F0 /* SBPhotoViewController.m */,
+				EF3CF8581DD1A3C100B168F0 /* SBPhotoViewController.xib */,
+			);
+			name = SBPhotoViewer;
+			path = SlideShow/SBPhotoViewer;
+			sourceTree = "<group>";
+		};
+		EF3CF8591DD1A3C100B168F0 /* SBSlider */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CF85A1DD1A3C100B168F0 /* SBSliderView.h */,
+				EF3CF85B1DD1A3C100B168F0 /* SBSliderView.m */,
+				EF3CF85C1DD1A3C100B168F0 /* SBSliderView.xib */,
+			);
+			name = SBSlider;
+			path = SlideShow/SBSlider;
+			sourceTree = "<group>";
+		};
+		EF3CF85D1DD1A3C100B168F0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CF85E1DD1A3C100B168F0 /* Black-Car-HD-Wallpaper.jpg */,
+				EF3CF85F1DD1A3C100B168F0 /* lamborghini_murcielago_superveloce_2-2880x1800.jpg */,
+				EF3CF8601DD1A3C100B168F0 /* nature-landscape-photography-lanscape-cool-hd-wallpapers-fullscreen-high-resolution.jpg */,
+				EF3CF8611DD1A3C100B168F0 /* next.png */,
+				EF3CF8621DD1A3C100B168F0 /* previous.png */,
+				EF3CF8631DD1A3C100B168F0 /* wallpaper-hd-3151.jpg */,
+			);
+			name = Assets;
+			path = SlideShow/Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3CF83A1DD1A29100B168F0 /* iosslideshow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3CF84D1DD1A29100B168F0 /* Build configuration list for PBXNativeTarget "iosslideshow" */;
+			buildPhases = (
+				EF3CF8371DD1A29100B168F0 /* Sources */,
+				EF3CF8381DD1A29100B168F0 /* Frameworks */,
+				EF3CF8391DD1A29100B168F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosslideshow;
+			productName = iosslideshow;
+			productReference = EF3CF83B1DD1A29100B168F0 /* iosslideshow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3CF8331DD1A29100B168F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = anupam;
+				TargetAttributes = {
+					EF3CF83A1DD1A29100B168F0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF3CF8361DD1A29100B168F0 /* Build configuration list for PBXProject "iosslideshow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3CF8321DD1A29100B168F0;
+			productRefGroup = EF3CF83C1DD1A29100B168F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3CF83A1DD1A29100B168F0 /* iosslideshow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3CF8391DD1A29100B168F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3CF8671DD1A3C100B168F0 /* SBPhotoViewController.xib in Resources */,
+				EF3CF8491DD1A29100B168F0 /* LaunchScreen.storyboard in Resources */,
+				EF3CF86E1DD1A3C100B168F0 /* previous.png in Resources */,
+				EF3CF86D1DD1A3C100B168F0 /* next.png in Resources */,
+				EF3CF86B1DD1A3C100B168F0 /* lamborghini_murcielago_superveloce_2-2880x1800.jpg in Resources */,
+				EF3CF86F1DD1A3C100B168F0 /* wallpaper-hd-3151.jpg in Resources */,
+				EF3CF8691DD1A3C100B168F0 /* SBSliderView.xib in Resources */,
+				EF3CF86C1DD1A3C100B168F0 /* nature-landscape-photography-lanscape-cool-hd-wallpapers-fullscreen-high-resolution.jpg in Resources */,
+				EF3CF86A1DD1A3C100B168F0 /* Black-Car-HD-Wallpaper.jpg in Resources */,
+				EF3CF8461DD1A29100B168F0 /* Assets.xcassets in Resources */,
+				EF3CF8441DD1A29100B168F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3CF8371DD1A29100B168F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3CF8661DD1A3C100B168F0 /* SBPhotoViewController.m in Sources */,
+				EF3CF8411DD1A29100B168F0 /* ViewController.swift in Sources */,
+				EF3CF8681DD1A3C100B168F0 /* SBSliderView.m in Sources */,
+				EF3CF8651DD1A3C100B168F0 /* SBPhotoManager.m in Sources */,
+				EF3CF8641DD1A3C100B168F0 /* AsyncImageView.m in Sources */,
+				EF3CF83F1DD1A29100B168F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF3CF8421DD1A29100B168F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3CF8431DD1A29100B168F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3CF8471DD1A29100B168F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3CF8481DD1A29100B168F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF3CF84B1DD1A29100B168F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF3CF84C1DD1A29100B168F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3CF84E1DD1A29100B168F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iosslideshow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anupam.iosslideshow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/iosslideshow/iosslideshow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF3CF84F1DD1A29100B168F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iosslideshow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anupam.iosslideshow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/iosslideshow/iosslideshow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3CF8361DD1A29100B168F0 /* Build configuration list for PBXProject "iosslideshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3CF84B1DD1A29100B168F0 /* Debug */,
+				EF3CF84C1DD1A29100B168F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3CF84D1DD1A29100B168F0 /* Build configuration list for PBXNativeTarget "iosslideshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3CF84E1DD1A29100B168F0 /* Debug */,
+				EF3CF84F1DD1A29100B168F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF3CF8331DD1A29100B168F0 /* Project object */;
+}
